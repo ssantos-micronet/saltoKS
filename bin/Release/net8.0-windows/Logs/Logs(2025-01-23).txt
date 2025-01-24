@@ -1,0 +1,20 @@
+2025-01-23 12:10:32: Service is starting...
+2025-01-23 12:10:32: Script SQL executado com sucesso: D:\micronet\salto-autoKS\bin\Release\net8.0-windows\SQLScripts\xsetup.sql
+2025-01-23 12:10:32: Script SQL executado com sucesso: D:\micronet\salto-autoKS\bin\Release\net8.0-windows\SQLScripts\requestRecordsCode.sql
+2025-01-23 12:10:32: Script SQL executado com sucesso: D:\micronet\salto-autoKS\bin\Release\net8.0-windows\SQLScripts\requestConfig.sql
+2025-01-23 12:10:32: Service started successfully.
+2025-01-23 12:10:32: Starting work execution.
+2025-01-23 12:10:32: Access token refreshed successfully.
+2025-01-23 12:10:32: timeToAlive atualizado com sucesso.
+2025-01-23 12:10:33: ID do Site Selecionado: 07cdf9ac-3681-4dcf-b8d0-ddb81197b0b3
+2025-01-23 12:10:33: Work execution completed successfully.
+2025-01-23 12:10:33: Requisição pendente encontrada. recordID: 1, Nome: simone teste, Email: pistachiosalgado3@gmail.com, ReservationID: 101, ExpiryDate: 27/10/2024 00:00:00
+2025-01-23 12:10:33: Nenhum access group encontrado para recordID 1 com o ReservationID 12
+2025-01-23 12:10:33: Requisição pendente encontrada. recordID: 2, Nome: elimia, Email: 2, ReservationID: 101, ExpiryDate: 25/10/2024 17:00:00
+2025-01-23 12:10:33: Nenhum access group encontrado para recordID 2 com o ReservationID 13
+2025-01-23 12:10:33: Requisição pendente encontrada. recordID: 5, Nome: lari, Email: 2, ReservationID: 101, ExpiryDate: 28/10/2024 00:00:00
+2025-01-23 12:10:34: Nenhum access group encontrado para recordID 5 com o ReservationID 888
+2025-01-23 12:10:34: Requisição pendente encontrada. recordID: 6, Nome: teste 2, Email: pistachiosalgado3@gmail.com, ReservationID: 101, ExpiryDate: 28/10/2024 00:00:00
+2025-01-23 12:10:34: Nenhum access group encontrado para recordID 6 com o ReservationID 777
+2025-01-23 12:10:34: Requisição pendente encontrada. recordID: 7, Nome: Helder, Email: bctsalgado@gmail.com, ReservationID: 101, ExpiryDate: 25/11/2024 17:30:00
+2025-01-23 12:10:34: Nenhum access group encontrado para recordID 7 com o ReservationID 666
