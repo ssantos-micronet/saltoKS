@@ -1,1 +1,1 @@
-Server=COKAS;Database=protelmprado;Integrated Security=True;MultipleActiveResultSets=True;
+Server=GCWSSQL01;Database=ptrain;User Id=trainuser;Password=train915930;MultipleActiveResultSets=True;
