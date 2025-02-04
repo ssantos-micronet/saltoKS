@@ -1,4 +1,4 @@
-USE protelmprado;
+USE ptrain;
 
 DECLARE @Ref int, @Ref2 int, @Ref3 int, @Ref4 int, @Ref5 int, @Ref6 int, @Ref7 int, @Ref8 int, @Ref9 int, @Ref10 int, @Ref11 int, @Ref12 int;
 DECLARE @Mpehotel int;
@@ -10,7 +10,7 @@ DECLARE @hotelName nvarchar(255), @hotelPhone nvarchar(50), @hotelEmail nvarchar
 
 -- Definição dos valores padrão
 SET @tokenURL = 'https://clp-accept-identityserver.saltoks.com/connect/token';
-SET @clientId = '956ebbbe-785a-4948-8592-ad2b826b0e6a';
+SET @clientId = 'PT8702404464';
 SET @apiUrl = 'https://clp-accept-user.my-clay.com/v1.1/';
 SET @Mpehotel = 1;
 
@@ -20,10 +20,10 @@ SET @noReplyEmail = 'noreply_@hitsnorte.pt';
 SET @noReplyPassword = 'Kqgcp@3z';
 SET @sendingServer = 'mail.hitsnorte.pt';
 SET @sendingPort = 587;
-SET @supportEmail = 'ssantos.micronet@gmail.com';
-SET @hotelName = 'Hotel Example';
-SET @hotelPhone = '(11) 1234-5678';
-SET @hotelEmail = 'contato@hotelexample.com'; 
+SET @supportEmail = 'hits@hitsnorte.pt';
+SET @hotelName = 'Gran Cruz Apartamentos';
+SET @hotelPhone = '(+351) 253253032';
+SET @hotelEmail = 'pedro.lopes@hitsnorte.pt'; 
 
 -- Verifica se já existem entradas com 'SysConector' na tabela 'xsetup'
 IF NOT EXISTS (SELECT * FROM dbo.xsetup WHERE xsection = 'SysConector')
