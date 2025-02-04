@@ -1,4 +1,4 @@
-USE [protelmprado];
+USE [ptrain];
 
 -- Verifica se a tabela [dbo].[requestConfig] não existe
 IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'requestConfig' AND TABLE_SCHEMA = 'dbo')
